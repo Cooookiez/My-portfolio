@@ -134,6 +134,17 @@
             line-height: 1.4;
         }
         
+        /* Feature list styling */
+        .project-info ul {
+            margin: 0.5rem 0 1rem 1.5rem;
+        }
+        
+        .project-info li {
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+            line-height: 1.4;
+        }
+        
         .project-tags {
             display: flex;
             flex-wrap: wrap;
@@ -306,16 +317,21 @@
     
     <main class="container">
         <section id="featured-projects">
-            <h2>My Featured Mobile Apps</h2>
+            <h2>My Mobile Apps</h2>
             <div class="projects-container">
                 <!-- C/T Pro -->
                 <article class="project-card">
                     <div class="project-image">
-                        <img src="assets/screenshots/ct pro.png" alt="">
+                        <img src="assets/screenshots/ct pro.png" alt="C/T Pro app screenshot">
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">C/T Pro</h3>
-                        <p>CycleTimer helps manufacturing teams improve production by digitizing time studies, providing real-time analytics, and visualizing workflow efficiency.</p>
+                        <p>C/T Pro is a one-click Cycle Time measurement tool that automatically creates Yamazumi and Work Combination Charts based on VA, NVA, and NVA-R activities!</p>
+                        <ul>
+                            <li>Measure manual operations</li>
+                            <li>Measure machine operations</li>
+                            <li>Create voice notes</li>
+                        </ul>
                         <div class="project-tags">
                             <span class="tag">Swift</span>
                             <span class="tag">SwiftUI</span>
@@ -332,19 +348,26 @@
                 
                 <!-- Countdown Master -->
                 <article class="project-card">
-                    <div class="project-image">App Screenshot</div>
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/320" alt="Countdown Master app screenshot">
+                    </div>
                     <div class="project-info">
                         <h3 class="project-title">Countdown Master</h3>
-                        <p>A versatile countdown timer app that helps users track multiple events, set reminders, and customize notifications with beautiful themes and widgets.</p>
+                        <p>Never forget any workshop preparation step or important date! Simply provide the date, set up recurrence, and receive reminders when needed!</p>
+                        <ul>
+                            <li>Weekly, monthly, and annual recurrence options</li>
+                            <li>Customizable reminders (hourly, weekly, monthly, yearly)</li>
+                            <li>Push notifications to keep you on track</li>
+                        </ul>
                         <div class="project-tags">
                             <span class="tag">Flutter</span>
                             <span class="tag">Dart</span>
                             <span class="tag">Cross-platform</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-app-store-ios"></i>AppStore</a>
-                            <a href="#" class="project-link"><i class="fab fa-google-play"></i>Google Play</a>
-                            <a href="#" class="project-link"><i class="fab fa-github"></i>GitHub</a>
+                            <a href="#" class="project-link"><i class="fab fa-app-store-ios"></i> AppStore</a>
+                            <a href="#" class="project-link"><i class="fab fa-google-play"></i> Google Play</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                         <div class="project-more">
                             <a href="#">Learn more →</a>
@@ -354,19 +377,26 @@
                 
                 <!-- SnapClick -->
                 <article class="project-card">
-                    <div class="project-image">App Screenshot</div>
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/320" alt="SnapClick app screenshot">
+                    </div>
                     <div class="project-info">
                         <h3 class="project-title">SnapClick</h3>
-                        <p>A fast and efficient camera app with advanced photo editing tools, AI-powered scene recognition, and social sharing capabilities.</p>
+                        <p>A simple yet powerful tool to streamline activities in service departments. A must-have for all "non-production" teams including HR, HSE, R&D, Warehouse, and many more!</p>
+                        <ul>
+                            <li>Track tasks with simple button clicks</li>
+                            <li>Visualize time allocation across activities</li>
+                            <li>Make data-driven decisions to improve efficiency</li>
+                        </ul>
                         <div class="project-tags">
                             <span class="tag">Flutter</span>
                             <span class="tag">Dart</span>
                             <span class="tag">Cross-platform</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-app-store-ios"></i>AppStore</a>
-                            <a href="#" class="project-link"><i class="fab fa-google-play"></i>Google Play</a>
-                            <a href="#" class="project-link"><i class="fab fa-github"></i>GitHub</a>
+                            <a href="#" class="project-link"><i class="fab fa-app-store-ios"></i> AppStore</a>
+                            <a href="#" class="project-link"><i class="fab fa-google-play"></i> Google Play</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                         <div class="project-more">
                             <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
@@ -383,14 +413,14 @@
                     <img src="assets/photos/krzysztofkukiz.png" alt="Krzysztof Kukiz profile">
                 </div>
                 <div class="about-text">
-                    <p>Programming is my passion! Or maybe even a lifestyle!</p>
+                    <p>Programming is my passion and my lifestyle!</p>
                     
-                    <p>I am an engineer after studying IT at UWr (Applied Computer Science and Measurement Systems). I have a very good mathematical background confirmed by winning 5th place in the province and 64th place in the country in the "Mathematical Championships of Poland".  I have experience in technologies, among others:  HTML5, CSS3 + SASS, JS (JQ, TS, Vue), PHP, Python3, Django, C++, Git, JAVA, Swift. I am currently focusing on developing IOS/Android applications in Flutter.</p>
+                    <p>I am an engineer who studied Computer Science at the UWr (Applied Computer Science and Measurement Systems). I have a strong mathematical background, confirmed by winning 5th place in my province and 64th place nationally in the "Mathematical Championships of Poland". My technical experience includes HTML5, CSS3 + SASS, JavaScript (jQuery, TypeScript, Vue), PHP, Python3, Django, C++, Git, Java and Swift. I'm currently focused on developing iOS/Android applications using Flutter.</p>
                     
-                    <p>I have been programming for more than a dozen years. My biggest private production time analysis tool (available on Appstore), besides I also have commercial experience of more than a year of building web applications. I have an analytical mind, able to work independently and in a team. I have basic skills to work in SCRUM and knowledge of KANBAN.</p>
+                    <p>I have been programming for over a dozen years. My biggest personal project is a production time analysis tool (available on the App Store). I also have over a year of commercial experience building web applications. I have an analytical mind and am able to work both independently and as part of a team. I have basic SCRUM skills and knowledge of KANBAN methodology.</p>
                     
                     <div class="connect-section">
-                        <h3>Connect With Me</h3>
+                        <h3>Connect with me</h3>
                         <div class="social-links">
                             <a href="https://github.com/Cooookiez" class="social-link">
                                 <div class="social-icon"><i class="fab fa-github"></i></div>
@@ -407,77 +437,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        
-        <section id="all-projects" class="all-apps-section">
-            <h2>All My Apps</h2>
-            <div class="projects-container">
-                <!-- C/T Pro -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/screenshots/ct pro.png" alt="">
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">C/T Pro</h3>
-                        <p>CycleTimer helps manufacturing teams improve production by digitizing time studies, providing real-time analytics, and visualizing workflow efficiency.</p>
-                        <div class="project-tags">
-                            <span class="tag">Swift</span>
-                            <span class="tag">SwiftUI</span>
-                            <span class="tag">iOS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-app-store-ios"></i> AppStore</a>
-                        </div>
-                        <div class="project-more">
-                            <a href="#">Learn more →</a>
-                        </div>
-                    </div>
-                </article>
-                
-                <!-- Countdown Master -->
-                <article class="project-card">
-                    <div class="project-image">App Screenshot</div>
-                    <div class="project-info">
-                        <h3 class="project-title">Countdown Master</h3>
-                        <p>A versatile countdown timer app that helps users track multiple events, set reminders, and customize notifications with beautiful themes and widgets.</p>
-                        <div class="project-tags">
-                            <span class="tag">Flutter</span>
-                            <span class="tag">Dart</span>
-                            <span class="tag">Cross-platform</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-app-store-ios"></i>AppStore</a>
-                            <a href="#" class="project-link"><i class="fab fa-google-play"></i>Google Play</a>
-                            <a href="#" class="project-link"><i class="fab fa-github"></i>GitHub</a>
-                        </div>
-                        <div class="project-more">
-                            <a href="#">Learn more →</a>
-                        </div>
-                    </div>
-                </article>
-                
-                <!-- SnapClick -->
-                <article class="project-card">
-                    <div class="project-image">App Screenshot</div>
-                    <div class="project-info">
-                        <h3 class="project-title">SnapClick</h3>
-                        <p>A fast and efficient camera app with advanced photo editing tools, AI-powered scene recognition, and social sharing capabilities.</p>
-                        <div class="project-tags">
-                            <span class="tag">Flutter</span>
-                            <span class="tag">Dart</span>
-                            <span class="tag">Cross-platform</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-app-store-ios"></i>AppStore</a>
-                            <a href="#" class="project-link"><i class="fab fa-google-play"></i>Google Play</a>
-                            <a href="#" class="project-link"><i class="fab fa-github"></i>GitHub</a>
-                        </div>
-                        <div class="project-more">
-                            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </article>
             </div>
         </section>
     </main>
